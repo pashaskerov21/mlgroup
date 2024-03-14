@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/3cf65b98ce.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
     <link rel="stylesheet" href="{{ asset('front-assets/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('front-assets/css/index.css') }}">
+    <link rel="stylesheet" href="{{ asset('front-assets/css/index.css') }}?v=1.1">
 </head>
 
 <body>
