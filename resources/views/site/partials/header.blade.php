@@ -65,7 +65,7 @@
                     <div class="nav-menu">
                         <div class="menu-header d-xl-none">
                             <a href="{{ route('index') }}" class="logo">
-                                <img src="{{ asset('storage/uploads/settings/' . $settings->favicon_white) }}"
+                                <img src="{{ asset('storage/uploads/settings/' . $settings->logo_white) }}"
                                     alt="logo">
                             </a>
                             <button class="close-button">
