@@ -10,7 +10,7 @@
                         <a class="nav-item" href="{{ $settings->linkedin }}"><i class="fab fa-linkedin-in"></i></a>
                         <a class="nav-item" class="nav-item" href="#">
                             <i class="fa-solid fa-phone"></i>
-                            <span class="d-none d-md-block">(+994 12) 431 29 43</span>
+                            <span class="d-none d-lg-block">(+994 12) 431 29 43</span>
                         </a>
                     </div>
                 </div>
@@ -18,7 +18,7 @@
                     <div class="lang-dropdown">
                         <div class="active-lang nav-item">
                             <i class="fa-solid fa-globe"></i>
-                            <span class="d-none d-md-block">{{ __('main.lang_selection') }}
+                            <span class="d-none d-lg-block">{{ __('main.lang_selection') }}
                                 ({{ Session('lang') }})</span>
                             <span class="d-md-none">{{ Session('lang') }}</span>
                             <i class="fa-solid fa-chevron-down"></i>
