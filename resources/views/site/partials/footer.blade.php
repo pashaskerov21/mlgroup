@@ -66,9 +66,9 @@
                     <div class="copyright">
                         {{ $settings->getTranslate->where('lang', Session('lang'))->first()->copyright }}</div>
                     <div class="r-bottom">
-                        <div class="rb-left me-3">
+                        {{-- <div class="rb-left me-3">
                             Powered by <a href="#">Proton.az</a>
-                        </div>
+                        </div> --}}
                         <div class="social-icons">
                             <a href="{{ $settings->facebook }}"><i class="fab fa-facebook-f"></i></a>
                             <a href="{{ $settings->twitter }}"><i class="fab fa-twitter"></i></a>
