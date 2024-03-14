@@ -20,7 +20,7 @@
                             <i class="fa-solid fa-globe"></i>
                             <span class="d-none d-lg-block">{{ __('main.lang_selection') }}
                                 ({{ Session('lang') }})</span>
-                            <span class="d-md-none">{{ Session('lang') }}</span>
+                            <span class="d-lg-none">{{ Session('lang') }}</span>
                             <i class="fa-solid fa-chevron-down"></i>
                         </div>
                         <div class="lang-menu d-none">
