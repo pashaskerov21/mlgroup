@@ -37,7 +37,7 @@
                                 'projectSlug' => $project->getTranslate->where('lang', Session('lang'))->first()->slug,
                             ]) }}"
                                 class="secondary-button">
-                                {{__('main.see_project')}}
+                                {{__('main.see_product')}}
                             </a>
                         </div>
                     </div>

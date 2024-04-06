@@ -69,5 +69,5 @@ return [
     'services' => 'services',
     'download_catalog' => 'Download catalog',
     "products" => "Products",
-
+    "see_product" => "See product",
 ];

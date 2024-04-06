@@ -69,4 +69,5 @@ return [
     'services' => 'xidmətlər',
     'download_catalog' => 'Kataloqu yüklə',
     "products" => "Məhsullar",
+    "see_product" => "Məhsula bax",
 ];

@@ -22,7 +22,7 @@
                                 'projectSlug' => $project->getTranslate->where('lang', Session('lang'))->first()->slug,
                             ]) }}"
                                 class="secondary-button">
-                                {{__('main.see_project')}}
+                                {{__('main.see_product')}}
                             </a>
                         </div>
                     </div>
@@ -34,6 +34,6 @@
                 </div>
             @endforeach
         </div>
-        <a href="{{ route('projects_' . Session('lang')) }}" class="primary-button"><span>{{__('main.projects')}}</span></a>
+        <a href="{{ route('projects_' . Session('lang')) }}" class="primary-button"><span>{{__('main.products')}}</span></a>
     </div>
 </section>

@@ -69,4 +69,5 @@ return [
     'services' => 'услуги',
     'download_catalog' => 'Скачать каталог',
     "products" => "Товары",
+    "see_product" => "Посмотреть товар",
 ];
