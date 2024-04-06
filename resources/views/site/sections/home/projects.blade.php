@@ -1,7 +1,7 @@
 <section class="projects">
     <img src="{{ asset('front-assets/images/logo/mlgroup-icon-rbg.png') }}" class="design-logo right" alt="">
     <div class="container">
-        <h2 class="section-title">{{__('main.our_projects')}}</h2>
+        <h2 class="section-title">{{__('main.products')}}</h2>
         <div class="project-rows">
             @foreach ($projects->where('home_status', 1) as $project)
                 <div class="row">

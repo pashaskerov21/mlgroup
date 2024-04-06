@@ -131,17 +131,17 @@ Route::group([
     Route::get('/services/{slug}', [ViewServiceController::class, 'details'])->name('service_inner_en');
     Route::get('/servis/{slug}', [ViewServiceController::class, 'details'])->name('service_inner_ru');
 
-    Route::get('/layiheler', [ViewProjectController::class, 'index'])->name('projects_az');
-    Route::get('/projects', [ViewProjectController::class, 'index'])->name('projects_en');
-    Route::get('/proekty', [ViewProjectController::class, 'index'])->name('projects_ru');
+    Route::get('/mehsullar', [ViewProjectController::class, 'index'])->name('projects_az');
+    Route::get('/products', [ViewProjectController::class, 'index'])->name('projects_en');
+    Route::get('/tovary', [ViewProjectController::class, 'index'])->name('projects_ru');
 
-    Route::get('/layiheler/{categorySlug}', [ViewProjectController::class, 'category'])->name('project_category_az');
-    Route::get('/projects/{categorySlug}', [ViewProjectController::class, 'category'])->name('project_category_en');
-    Route::get('/proekty/{categorySlug}', [ViewProjectController::class, 'category'])->name('project_category_ru');
+    Route::get('/mehsullar/{categorySlug}', [ViewProjectController::class, 'category'])->name('project_category_az');
+    Route::get('/products/{categorySlug}', [ViewProjectController::class, 'category'])->name('project_category_en');
+    Route::get('/tovary/{categorySlug}', [ViewProjectController::class, 'category'])->name('project_category_ru');
 
-    Route::get('/layiheler/{categorySlug}/{projectSlug}', [ViewProjectController::class, 'details'])->name('project_inner_az');
-    Route::get('/projects/{categorySlug}/{projectSlug}', [ViewProjectController::class, 'details'])->name('project_inner_en');
-    Route::get('/proekty/{categorySlug}/{projectSlug}', [ViewProjectController::class, 'details'])->name('project_inner_ru');
+    Route::get('/mehsullar/{categorySlug}/{projectSlug}', [ViewProjectController::class, 'details'])->name('project_inner_az');
+    Route::get('/products/{categorySlug}/{projectSlug}', [ViewProjectController::class, 'details'])->name('project_inner_en');
+    Route::get('/tovary/{categorySlug}/{projectSlug}', [ViewProjectController::class, 'details'])->name('project_inner_ru');
 
     Route::get('/bizimle-elaqe', [ContactController::class, 'index'])->name('contact_az');
     Route::get('/contact-us', [ContactController::class, 'index'])->name('contact_en');

@@ -68,4 +68,5 @@ return [
     'projects' => 'projeler',
     'services' => 'Hizmetler',
     'download_catalog' => 'Kataloğu indirin',
+    "products" => "Products",
 ];

@@ -16,7 +16,7 @@ class ProjectController extends Controller
     public function index()
     {
         // $lang = ['az' => '/layiheler', 'en' => '/en/projects', 'ru' => '/ru/proekty'];
-        $lang = ['en' => '/projects', 'ru' => '/ru/proekty'];
+        $lang = ['en' => '/products', 'ru' => '/ru/tovary'];
         $settings = Settings::findOrFail(1);
         $menues = Menu::where('destroy', 0)->orderBy('order')->get();
         $services = Service::where('destroy', 0)->orderBy('order')->get();
@@ -44,8 +44,8 @@ class ProjectController extends Controller
                 //     'ru' => '/ru/proekty/' . $category->getTranslate->where('lang', 'ru')->first()->slug
                 // ];
                 $lang = [
-                    'en' => '/projects/' . $category->getTranslate->where('lang', 'en')->first()->slug,
-                    'ru' => '/ru/proekty/' . $category->getTranslate->where('lang', 'ru')->first()->slug
+                    'en' => '/products/' . $category->getTranslate->where('lang', 'en')->first()->slug,
+                    'ru' => '/ru/tovary/' . $category->getTranslate->where('lang', 'ru')->first()->slug
                 ];
                 return view('site.pages.projects.index', compact(['settings', 'lang', 'menues', 'services', 'projectcategories', 'category', 'projects']));
             } else {
@@ -75,8 +75,8 @@ class ProjectController extends Controller
                 //     'ru' => '/ru/proekty/' .$category->getTranslate->where('lang', 'az')->first()->slug .'/'. $projectSlugs->where('lang', 'ru')->first()->slug
                 // ];
                 $lang = [
-                    'en' => '/projects/' .$category->getTranslate->where('lang', 'az')->first()->slug .'/'. $projectSlugs->where('lang', 'en')->first()->slug,
-                    'ru' => '/ru/proekty/' .$category->getTranslate->where('lang', 'az')->first()->slug .'/'. $projectSlugs->where('lang', 'ru')->first()->slug
+                    'en' => '/products/' .$category->getTranslate->where('lang', 'az')->first()->slug .'/'. $projectSlugs->where('lang', 'en')->first()->slug,
+                    'ru' => '/ru/tovary/' .$category->getTranslate->where('lang', 'az')->first()->slug .'/'. $projectSlugs->where('lang', 'ru')->first()->slug
                 ];
                 return view('site.pages.projects.detail', compact(['settings', 'lang', 'menues', 'services', 'projectcategories', 'project']));
             } else {

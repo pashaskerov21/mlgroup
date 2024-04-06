@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-12">
             <div class="page-title-box">
-                <h4 class="page-title">Layihələr</h4>
+                <h4 class="page-title">Məhsullar</h4>
             </div>
         </div>
     </div>
@@ -15,7 +15,7 @@
                     <div class="row mb-2">
                         <div class="col-sm-5">
                             <a href="{{ route('admin.projects.create') }}" class="btn btn-danger mb-2"><i
-                                    class="mdi mdi-plus-circle me-2"></i> Layihə əlavə et</a>
+                                    class="mdi mdi-plus-circle me-2"></i> Məhsul əlavə et</a>
                         </div>
                     </div>
 

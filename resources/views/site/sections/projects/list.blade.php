@@ -3,7 +3,7 @@
         <div class="breadcrumb">
             <a href="{{ route('index') }}">{{__('main.home_page')}}</a>
             <span>/</span>
-            <a href="{{ route('projects_' . Session('lang')) }}">{{__('main.projects')}}</a>
+            <a href="{{ route('projects_' . Session('lang')) }}">{{__('main.products')}}</a>
             @if ($category)
             <span>/</span>
             <a href="{{ route('projects_' . Session('lang')) }}">
@@ -12,11 +12,12 @@
             @endif
         </div>
         <h2 class="page-title">
-            {{__('main.our_projects')}}
+            {{__('main.products')}}
             @if ($category)
                 - {{ $category->getTranslate->where('lang', Session('lang'))->first()->title }}
             @endif
         </h2>
+        <h1>{{Str::slug('Товары')}}</h1>
         <div class="project-rows">
             @foreach ($projects as $project)
                 <div class="row">

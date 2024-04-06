@@ -85,7 +85,7 @@
             <li class="side-nav-item">
                 <a data-bs-toggle="collapse" href="#sidebar-projects" class="side-nav-link">
                     <i class="ri-todo-line"></i>
-                    <span> Layihələr </span>
+                    <span> Məhsullar </span>
                     <span class="menu-arrow"></span>
                 </a>
                 <div class="collapse" id="sidebar-projects">
@@ -94,7 +94,7 @@
                             <a href="{{ route('admin.project-categories.index') }}">Kateqoriyalar</a>
                         </li>
                         <li>
-                            <a href="{{ route('admin.projects.index') }}">Layihələr</a>
+                            <a href="{{ route('admin.projects.index') }}">Məhsullar</a>
                         </li>
                     </ul>
                 </div>

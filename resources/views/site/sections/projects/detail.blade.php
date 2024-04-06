@@ -3,7 +3,7 @@
         <div class="breadcrumb">
             <a href="{{ route('index') }}">{{__('main.home_page')}}</a>
             <span>/</span>
-            <a href="{{ route('projects_'.Session('lang'))}}">{{__('main.projects')}}</a>
+            <a href="{{ route('projects_'.Session('lang'))}}">{{__('main.products')}}</a>
             <span>/</span>
             <a href="#">{{$project->getTranslate->where('lang',Session('lang'))->first()->title}}</a>
         </div>

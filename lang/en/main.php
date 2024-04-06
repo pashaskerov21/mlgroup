@@ -68,6 +68,6 @@ return [
     'projects' => 'projects',
     'services' => 'services',
     'download_catalog' => 'Download catalog',
-
+    "products" => "Products",
 
 ];

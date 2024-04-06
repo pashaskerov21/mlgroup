@@ -42,9 +42,9 @@ class DatabaseSeeder extends Seeder
         MenuTranslate::create(["menu_id" => 3, "lang" => "en", "title" => "Services", "slug" => "services"]);
         MenuTranslate::create(["menu_id" => 3, "lang" => "ru", "title" => "Сервисы", "slug" => "servis"]);
 
-        MenuTranslate::create(["menu_id" => 4, "lang" => "az", "title" => "Layihələr", "slug" => "layiheler"]);
-        MenuTranslate::create(["menu_id" => 4, "lang" => "en", "title" => "Projects", "slug" => "projects"]);
-        MenuTranslate::create(["menu_id" => 4, "lang" => "ru", "title" => "проекты", "slug" => "proekty"]);
+        MenuTranslate::create(["menu_id" => 4, "lang" => "az", "title" => "Məhsullar", "slug" => "mehsullar"]);
+        MenuTranslate::create(["menu_id" => 4, "lang" => "en", "title" => "Products", "slug" => "products"]);
+        MenuTranslate::create(["menu_id" => 4, "lang" => "ru", "title" => "Товары", "slug" => "tovary"]);
 
         MenuTranslate::create(["menu_id" => 5, "lang" => "az", "title" => "İnsan Resursları", "slug" => "insan-resurslari"]);
         MenuTranslate::create(["menu_id" => 5, "lang" => "en", "title" => "Human Resources", "slug" => "human-resources"]);

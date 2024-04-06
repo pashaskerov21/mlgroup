@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-12">
             <div class="page-title-box">
-                <h4 class="page-title">Layihə Düzəliş et</h4>
+                <h4 class="page-title">Məhsul Düzəliş et</h4>
             </div>
         </div>
     </div>
