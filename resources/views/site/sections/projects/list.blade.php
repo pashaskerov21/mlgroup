@@ -17,7 +17,6 @@
                 - {{ $category->getTranslate->where('lang', Session('lang'))->first()->title }}
             @endif
         </h2>
-        <h1>{{Str::slug('Товары')}}</h1>
         <div class="project-rows">
             @foreach ($projects as $project)
                 <div class="row">
