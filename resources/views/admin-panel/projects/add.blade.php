@@ -40,7 +40,7 @@
                                     <input type="text" class="form-control" name="title[]" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label class="form-label">ünvan az</label>
+                                    <label class="form-label">qiymət az</label>
                                     <input type="text" class="form-control" name="address[]">
                                 </div>
                                 <div class="mb-3">
@@ -61,7 +61,7 @@
                                     <input type="text" class="form-control" name="title[]" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label class="form-label">ünvan en</label>
+                                    <label class="form-label">qiymət en</label>
                                     <input type="text" class="form-control" name="address[]">
                                 </div>
                                 <div class="mb-3">
@@ -82,7 +82,7 @@
                                     <input type="text" class="form-control" name="title[]" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label class="form-label">ünvan ru</label>
+                                    <label class="form-label">qiymət ru</label>
                                     <input type="text" class="form-control" name="address[]">
                                 </div>
                                 <div class="mb-3">
