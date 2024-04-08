@@ -26,7 +26,7 @@
                                 {{ $project->getTranslate->where('lang', Session('lang'))->first()->title }}
                             </h4>
                             <a href="{{ $project->address }}" target="_blank" class="location">
-                                <i class="fa-solid fa-location-dot"></i>
+                                {{-- <i class="fa-solid fa-location-dot"></i> --}}
                                 <span>{{ $project->getTranslate->where('lang', Session('lang'))->first()->address }}</span>
                             </a>
                             <div class="text">

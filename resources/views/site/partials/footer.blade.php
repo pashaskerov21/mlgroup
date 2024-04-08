@@ -33,11 +33,7 @@
                         <h5 class="title">{{ __('main.contact') }}</h5>
                         <a href="#">
                             <i class="fa-solid fa-phone"></i>
-                            <span>{{ $settings->phone_az }}</span>
-                        </a>
-                        <a href="#">
-                            <i class="fa-solid fa-phone"></i>
-                            <span>{{ $settings->phone_tr }}</span>
+                            <span>{{ $settings->phone }}</span>
                         </a>
                         <a href="#">
                             <i class="fa-solid fa-envelope"></i>
@@ -45,11 +41,7 @@
                         </a>
                         <a href="#">
                             <i class="fa-solid fa-location-dot"></i>
-                            <span>{{ $settings->getTranslate->where('lang', Session('lang'))->first()->address_az }}</span>
-                        </a>
-                        <a href="#">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <span>{{ $settings->getTranslate->where('lang', Session('lang'))->first()->address_tr }}</span>
+                            <span>{{ $settings->getTranslate->where('lang', Session('lang'))->first()->address }}</span>
                         </a>
                     </div>
                 </div>

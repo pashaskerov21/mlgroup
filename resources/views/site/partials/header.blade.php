@@ -10,7 +10,7 @@
                         <a class="nav-item" href="{{ $settings->linkedin }}"><i class="fab fa-linkedin-in"></i></a>
                         <a class="nav-item" class="nav-item" href="#">
                             <i class="fa-solid fa-phone"></i>
-                            <span class="d-none d-lg-block">(+994 12) 431 29 43</span>
+                            <span class="d-none d-lg-block">{{ $settings->phone }}</span>
                         </a>
                     </div>
                 </div>

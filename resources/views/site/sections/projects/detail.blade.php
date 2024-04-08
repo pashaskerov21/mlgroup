@@ -12,7 +12,7 @@
             <div class="col-12 col-lg-6">
                 <div class="content">
                     <a href="#" class="location">
-                        <i class="fa-solid fa-location-dot"></i>
+                        {{-- <i class="fa-solid fa-location-dot"></i> --}}
                         <span>{{$project->getTranslate->where('lang',Session('lang'))->first()->address}}</span>
                     </a>
                     <div class="text">
